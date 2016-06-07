@@ -34,14 +34,7 @@ nav {
 	margin-top: 1px;
 }
 
-/*
-ul li.submenu {
-    display: none;
-    visibility: hidden;
-}
-*/
-
-ul.dropdown {
+#dropdown {
     color: white;
 }
 
