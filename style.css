@@ -1,0 +1,194 @@
+﻿@charset "UTF-8";
+
+#txt1 {position: relative; left: 5px; font-style: italic; font-size: 12px;}
+#txt2 {text-align: center; width: 960px;}
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section{
+	padding: 0;
+	margin: 0;
+}
+
+.banner {
+	background-color: #11233b;
+	color: white;
+	padding: 10px 20px;
+}
+
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0f0f0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+
+/*Navigation Menu Styles*/
+nav {
+	background-color: #20416c;
+	padding: 5px;
+	margin-top: 1px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.dropdown {
+    position: relative;
+}
+
+ul.dropdown li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+    zoom: 1;
+    /*background-color: aliceblue;*/
+}
+
+ul.dropdown li a:hover {
+	color: #808080;
+}
+
+ul.dropdown li a:active {
+	color: mediumorchid;
+}
+
+ul.dropdown li a{
+	display: block;
+    padding: 4px 8px;
+    border-right: 1px solid #31435a;
+    color: white;
+}
+
+ul.dropdown li:last-child a {
+    border-right: none; /* May not work in IE */
+}
+
+ul.dropdown li.hover, 
+ul.dropdown li:hover {
+    background: #20416c; color: white; position: relative;
+}
+
+ul.dropdown li.hover a {
+    color: white;
+}
+
+
+/*Start submenu stuff here if using a submenus*/
+ul.dropdown ul li {
+    display: inline;
+    width: 100%;
+}
+
+
+/*Body of document styles*/
+section {
+	background-color: #bbbbbb;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+article{
+	background-color: white;
+	margin-top: 5px;
+	padding: 10px 15px;
+}
+
+main {
+	width: 640px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+aside {
+	background-color: #bbbbbb;
+	width: 270px;
+	padding: 20px;
+	margin-top: 10px;
+	float: right;
+}
+
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}
+
+
+
+
+
+
+
+/*
+.navbar {
+    width: 160px;
+    background-color: #20416c;
+    padding: 5px;
+	margin-top: 1px;
+}
+
+.menuLabel {
+    font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+    display: inline-table;
+    color: white;
+}
+
+.menuNormal {
+    font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+    color: white;
+    display: inline-table;
+    visibility: visible;
+}
+
+.menuInactive {
+    font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+    color: white;
+    display: none;
+    visibility: hidden;
+}
+
+td a{
+    color: white;
+}
+
+td.menuNormal
+{padding: 0px;
+color: black;
+font-weight: bold;
+vertical-align: top;
+background-color: white;}
+
+td.menuHover
+{padding: 0px;
+color: black;
+font-weight: bold;
+vertical-align: top;
+background-color: lightblue;}
+
+div.menuNormal
+{display: none;}
+
+div.menuHover
+{border: 1px solid lightblue;
+background-color: white;
+display: inline;
+position: absolute;}
+*/
